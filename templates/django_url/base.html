@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>base</title>
+</head>
+<body>
+<a href="{% url 'urlapp:other' %}">go to other page </a>
+<br/>
+<a href="{% url 'admin:index' %}"> admin page</a>
+
+{% block block_body%}
+
+{% endblock%}
+
+</body>
+</html>
